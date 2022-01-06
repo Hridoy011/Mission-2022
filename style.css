@@ -1,42 +1,128 @@
 body{
     font-family: 'Barlow', sans-serif;
 font-family: 'Roboto Slab', serif;
+/* padding: 50px; */
+}
+h1{
+    font-size: 40px;
+    font-weight: 700;
 }
 .First-section{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
 }
 .orange{
     color: chocolate;
 }
 a{
-    background-image: linear-gradient(blue,white);
+  background-color: #4CAF50;
     text-decoration: none;
     padding: 10px 25px;
     border-radius: 10px;
-    color: darkred;
+    color: white;
     font-weight: 700;
+    margin-bottom: 5px;
 }
 .First{
     width: 50%;
     padding: 2%;
+    
 }
+
 .First img{
-    width: 100%;
+    width: 70%;
     align-items: center;
+    justify-content: center;
 }
-.h1-b{
-    border-left: 5px solid greenyellow;
-}
-.Second-section{
-    display: flex;
-}
-.d1{
-    background-color: khaki;
-    width: 45%;
-    margin-left: 2%;
-    margin-right: 2%;
+.Heading-1{
+    border-left: 5px solid maroon;
     padding-left: 5px;
 }
-.d1 img{
-   align-items: flex-end;
+.Heading-1 h1{
+    font-size: 50px;
+}
+.Second-section{
+    padding: 40px;
+    display: flex;
+}
+.img-text-1, .img-text-2, .img-text-3{
+    width: 30%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.img-text-1{
+    background-color: khaki; 
+}
+.img-text-2{
+    background-color: rgb(138, 221, 130); 
+}
+.img-text-3{
+    background-color: rgb(233, 152, 229); 
+}
+.card-img{
+    width: 100px;
+}
+.third-section{
+    display: flex;
+    margin-top: 40px;
+    padding: 40px;
+    background-image: url('./images/shapes/shape-1.png');
+    background-repeat: no-repeat;
+    background-position:left;
+    background-size: 200px 200px;
+    margin-left: 20px;
+}
+
+.dev-img{
+  display: flex;
+  margin-right: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.fourth-section{
+    display: flex;
+    margin-top: 40px;
+    padding: 40px;
+}
+
+.dev-div{
+    width: 50%;
+}
+
+.right-dev-img{
+    width: 45%;
+}
+
+.my-input, select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .btn {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-radius: 5px;
+  }
+  
+  .contact-me {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 50px;
+  }
+
+footer{
+    background-color: black;
+    padding: 30px 0;
+   
 }
